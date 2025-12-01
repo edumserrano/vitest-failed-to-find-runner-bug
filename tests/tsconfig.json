@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "paths": {
+      "@vsts-npm-auth-improved": ["src/public-api.ts"],
+      "@test-utils/*": ["tests/_test-utils/*"],
+    }
+  }
+}
